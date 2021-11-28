@@ -10,6 +10,11 @@ use PHPUnit\Framework\TestCase;
 
 class AvaliadorTest extends TestCase
 {
+
+
+    /**
+     * Busca o maior lance na ordem desc
+     */
     public function testAvaliadorDeveEncontrarOMaiorValorDeLancesEmOrdemCrescente()
     {
         # Arrange - Given
